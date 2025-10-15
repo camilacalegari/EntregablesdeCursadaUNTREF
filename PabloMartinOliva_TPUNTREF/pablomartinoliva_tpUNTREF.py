@@ -10,7 +10,9 @@ import requests
 # PUNTO 1 DEL TP
 # ======================
 #Precondición: n debe ser un número natural
-def esPrimo(n):
+def esPrimo():
+  #Pedimos el ingreso de un número n
+  n = int(input("Ingrese un número para verificar si es primo: "))
   #Caso trivial
   if n == 1:
     return False
@@ -27,7 +29,11 @@ def esPrimo(n):
 # PUNTO 2 DEL TP
 # ======================
 #Precondición: a es un número real distinto de 0
-def resolverCuadratica(a,b,c):
+def resolverCuadratica():
+  #Pedimos el ingreso de los 3 coeficientes: a, b y c
+  a = float(input("Ingrese el coeficiente a, que tiene que ser distinto de 0: "))
+  b = float(input("Ingrese el coeficiente b: "))
+  c = float(input("Ingrese el coeficiente c: "))
   #Primero determinamos cantidad de raíces
   argumento = b**2 - 4*a*c
   #Luego calculamos las raíces dependiendo del signo del argumento
