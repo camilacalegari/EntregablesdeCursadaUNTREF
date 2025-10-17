@@ -60,7 +60,7 @@ it('Caso 1 - Verifica orden por precio (low to high)', () => {
       parseFloat(valor4) <= parseFloat(valor5) &&
       parseFloat(valor5) <= parseFloat(valor6)
     ) {
-      cy.log(' Los precios están ordenados de menor a mayor (permitiendo iguales)');
+      cy.log(' Los precios están ordenados de menor a mayor');
     } 
   });
 });
@@ -150,3 +150,4 @@ it('Caso 1 - Verifica orden por precio (low to high)', () => {
   })
 
 })
+
