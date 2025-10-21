@@ -1,0 +1,28 @@
+{
+  "name": "roldanstefania_tp_untref",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "report": "npx mochawesome-merge cypress/reports/*.json > cypress/reports/report.json && npx mochawesome-report-generator cypress/reports/report.json --reportDir cypress/reports --inline",
+    "test:report": "npm run test && npm run report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WTEWolfDiego/EntregablesdeCursadaUNTREF.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WTEWolfDiego/EntregablesdeCursadaUNTREF/issues"
+  },
+  "homepage": "https://github.com/WTEWolfDiego/EntregablesdeCursadaUNTREF#readme",
+  "devDependencies": {
+    "cypress": "^15.5.0",
+    "cypress-mochawesome-reporter": "^4.0.2",
+    "mochawesome-merge": "^4.4.1",
+    "mochawesome-report-generator": "^6.3.0"
+  }
+}
