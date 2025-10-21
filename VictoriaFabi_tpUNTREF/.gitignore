@@ -1,0 +1,17 @@
+# Ignorar el entorno virtual
+venv/
+.venv/
+
+# Ignorar archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar dependencias de Node
+node_modules/
+
+# Ignorar caché de tests generados
+.pytest_cache/
+
+# Ignorar la carperta downloads
+downloads/
