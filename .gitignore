@@ -1,0 +1,17 @@
+# Ignorar archivos de Python compilados
+__pycache__/
+*.pyc
+
+# Ignorar logs
+*.log
+
+# Ignorar IDEs y editores
+.vscode/
+.idea/
+
+# Ignorar drivers de Selenium
+chromedriver.exe
+
+# Ignorar archivos temporales de sistema
+.DS_Store
+Thumbs.db
